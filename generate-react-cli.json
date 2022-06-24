@@ -6,7 +6,7 @@
     "component": {
         "default": {
             "path": "components",
-            "withLazy": true,
+            "withLazy": false,
             "withStory": false,
             "withStyle": true,
             "withTest": true,
@@ -19,7 +19,7 @@
         },
         "page": {
             "path": "pages",
-            "withLazy": true,
+            "withLazy": false,
             "withStory": false,
             "withStyle": true,
             "withTest": true,
