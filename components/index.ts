@@ -5,4 +5,6 @@
  *
  */
 
-export { Editor } from "./Editor/Editor/Editor";
+export { Editor } from "./Core/Editor/Editor";
+export { MainLayout } from "./Layouts/MainLayout/MainLayout";
+export { ToolBar } from "./Core/ToolBar/ToolBar";

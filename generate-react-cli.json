@@ -12,8 +12,7 @@
             "withTest": true,
             "customTemplates": {
                 "component": "templates/components/TemplateName.tsx",
-                "lazy": "templates/components/TemplateName.lazy.js",
-                "style": "templates/components/TemplateName.style.css",
+                "style": "templates/components/TemplateName.module.css",
                 "test": "templates/components/TemplateName.test.js"
             }
         },
@@ -25,8 +24,7 @@
             "withTest": true,
             "customTemplates": {
                 "component": "templates/pages/TemplateName.tsx",
-                "lazy": "templates/pages/TemplateName.lazy.js",
-                "style": "templates/pages/TemplateName.style.css",
+                "style": "templates/pages/TemplateName.module.css",
                 "test": "templates/pages/TemplateName.test.js"
             }
         }

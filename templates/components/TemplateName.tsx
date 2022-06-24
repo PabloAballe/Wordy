@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./TemplateName.style.css";
+import style from "./MainLayout.module.css";
 
 export const TemplateName = () => {
   return <div data-testid="Box">TemplateName Component</div>;
