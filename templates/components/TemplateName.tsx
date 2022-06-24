@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./TemplateName.style.css";
+import "./TemplateName.style.css";
 
 const TemplateName = () => {
   return (

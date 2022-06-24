@@ -1,3 +1,6 @@
+
+[Wordy](https://github.com/PabloAballe/Wordy/blob/main/public/favicon.png?raw=true)
+
 # Wordy 
 ### Free and open source text editor.
 
@@ -5,7 +8,13 @@ Wordy is a free editor available for desktop and on the cloud. You can used for 
 
 I holpe you enjoy it!
 
+### Web version availdable !!
+
+ You can acces by the falloging link [Access via Browser]()
+
 ## Download
+
+### Android
 
 ### Windows
 
