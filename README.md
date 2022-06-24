@@ -1,5 +1,5 @@
 
-[Wordy](https://github.com/PabloAballe/Wordy/blob/main/public/favicon.png?raw=true)
+![Wordy](https://github.com/PabloAballe/Wordy/blob/main/public/favicon.png?raw=true)
 
 # Wordy 
 ### Free and open source text editor.
