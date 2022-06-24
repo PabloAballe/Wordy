@@ -9,11 +9,11 @@ I holpe you enjoy it!
 
 ### Windows
 
-- You can downloader from here [!Download Wordy for Windows]("")
+- You can downloader from here [Download Wordy for Windows]("")
 
 ### Linux
 
-- You can downloader from here [!Download Wordy for Linux]("")
+- You can downloader from here [Download Wordy for Linux]("")
 
 ### MacOS
 
@@ -25,4 +25,4 @@ You can contrybuting creating a pull request with your changes and I apreciate y
 
 In the future I will make a chanel to discus about new functionalities and BUGs.
 
---Autored by: **Pablo Aballe**
+## Autored by: **Pablo Aballe**
