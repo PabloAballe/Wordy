@@ -8,7 +8,7 @@ Wordy is a free editor available for desktop and on the cloud. You can use for f
 
 Hope you enjoy it!
 
-### Web version availdable !!
+### Web version available !!
 
 You can acces by the falloging link [Access via Browser]()
 

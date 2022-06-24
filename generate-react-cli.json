@@ -1,7 +1,7 @@
 {
     "usesTypeScript": true,
     "usesCssModule": true,
-    "testLibrary": "Testing Library",
+    "testLibrary": "Cypress",
     "cssPreprocessor": "css",
     "component": {
         "default": {
@@ -9,7 +9,7 @@
             "withLazy": false,
             "withStory": false,
             "withStyle": true,
-            "withTest": true,
+            "withTest": false,
             "customTemplates": {
                 "component": "templates/components/TemplateName.tsx",
                 "style": "templates/components/TemplateName.module.css",
@@ -21,7 +21,7 @@
             "withLazy": false,
             "withStory": false,
             "withStyle": true,
-            "withTest": true,
+            "withTest": false,
             "customTemplates": {
                 "component": "templates/pages/TemplateName.tsx",
                 "style": "templates/pages/TemplateName.module.css",
