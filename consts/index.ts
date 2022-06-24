@@ -8,3 +8,4 @@
 export { API } from "./api";
 export { APP } from "./app";
 export { COLORS } from "./colors";
+export { SECRETS } from "./secrets";
