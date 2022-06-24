@@ -4,9 +4,9 @@
 
 ### Free and open source text editor.
 
-Wordy is a free editor available for desktop and on the cloud. You can used for free and support the projefct by sharing with other people.
+Wordy is a free editor available for desktop and on the cloud. You can use for free and support the project sharing it with other people.
 
-I holpe you enjoy it!
+Hope you enjoy it!
 
 ### Web version availdable !!
 

@@ -6,6 +6,7 @@
 
 export const APP = {
   name: "Wordy",
-  description: "Free tet editor and open source",
+  description:
+    "Wordy is a free editor available for desktop and on the cloud. You can use for free and support the project sharing it with other people.",
   icon: "favicon.png",
 };
