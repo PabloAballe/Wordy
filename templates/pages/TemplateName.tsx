@@ -4,7 +4,7 @@ import React from "react";
 import type { NextPage } from "next";
 
 export const TemplateName: NextPage = () => {
-  return <div data-testid="Box">TemplateName Component</div>;
+  return <div>TemplateName Component</div>;
 };
 
 TemplateName.propTypes = {};

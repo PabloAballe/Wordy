@@ -1,9 +1,10 @@
-import { MainLayout } from "../components/Layouts/MainLayout/MainLayout";
-import Head from "next/head";
+import { MainLayout } from "../components";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
-  return <MainLayout>Home</MainLayout>;
+  return (
+    <MainLayout>Home</MainLayout>
+  );
 };
 
 export default Home;

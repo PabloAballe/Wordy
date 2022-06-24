@@ -7,11 +7,11 @@ import style from "./MainLayout.module.css";
 /* @ts-ignore */
 export const MainLayout = ({ children }) => {
   return (
-    <div data-testid="Box">
+    <div data-theme="cupcake">
       <Head>
         <title>{consts.APP.name}</title>
         <meta name="description" content={consts.APP.description} />
-        <link rel="icon" href={`/${consts.APP.description}`} />
+        <link rel="icon" href={`/${consts.APP.icon}`} />
       </Head>
 
       <main>{children}</main>

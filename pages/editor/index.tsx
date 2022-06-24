@@ -3,12 +3,18 @@
  * This page is the base of the Editor
  *
  */
-import Head from "next/head";
 import type { NextPage } from "next";
-import { MainLayout } from "../../components/Layouts/MainLayout/MainLayout";
+import { ToolBar, WordyEditor, MainLayout } from "../../components";
 
 const Editor: NextPage = () => {
-  return <MainLayout>Editor</MainLayout>;
+  return (
+    <MainLayout>
+    <div className="main-container">
+      <ToolBar />
+      <WordyEditor />
+    </div>
+  </MainLayout>
+  );
 };
 
 export default Editor;
