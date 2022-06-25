@@ -4,7 +4,7 @@ import style from "./Document.module.css";
 
 export const Document = () => {
   return (
-    <div contentEditable={true} className={style.Document}>
+    <div contentEditable={true} className={`${style.Document} rounded shadow-md`}>
       Document Component
     </div>
   );

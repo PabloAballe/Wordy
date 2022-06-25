@@ -1,0 +1,1 @@
+export const ADD_NEW_DOCUMENT = "ADD_NEW_DOCUMENT";

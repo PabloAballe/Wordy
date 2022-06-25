@@ -2,6 +2,6 @@
     width: 100%;
     padding: 1em 8px;
     height: 100vh;
-    border: solid;
     margin-bottom: 2em;
+    display: block;
 }
