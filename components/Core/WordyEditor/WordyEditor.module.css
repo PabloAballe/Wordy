@@ -1,1 +1,5 @@
-.WordyEditor {}
+    .WordyEditor {
+        margin: auto;
+        height: 96vh;
+        overflow-y: auto;
+    }

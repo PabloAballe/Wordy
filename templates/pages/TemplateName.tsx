@@ -1,10 +1,9 @@
-import "./TemplateName.style.css";
+/* @ts-ignore */
 import PropTypes from "prop-types";
-import React from "react";
 import type { NextPage } from "next";
 
 export const TemplateName: NextPage = () => {
-  return <div>TemplateName Component</div>;
+  return <div className={style.TemplateName}>TemplateName Component</div>;
 };
 
 TemplateName.propTypes = {};

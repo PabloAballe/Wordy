@@ -9,13 +9,12 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@tiptap/react": "^2.0.0-beta.113",
-        "@tiptap/starter-kit": "^2.0.0-beta.189",
         "daisyui": "^2.17.0",
         "generate-react-cli": "^7.2.0",
         "next": "^12.1.6",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "react-icons": "^4.4.0"
     },
     "devDependencies": {
         "@testing-library/react": "^13.3.0",
