@@ -17,8 +17,8 @@ const Editor: NextPage = () => {
           <div className={style.editorContainer}>
             <ToolBar />
             <WordyEditor />
-            <InfoBar/>
           </div>
+          <InfoBar/>
         </Drawer>
       </div>
     </MainLayout>

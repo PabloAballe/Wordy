@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import style from "./Document.module.css";
+import { deletePage, updateDocumentContent } from "../../../redux/actions";
+import { useSelector } from "react-redux";
+import { CgTrashEmpty } from "react-icons/cg";
 
-export const Document = () => {
+export const Document = ({ doc }) => {
   return (
-    <div contentEditable={true} className={`${style.Document} rounded shadow-md`}>
-      Document Component
-    </div>
+    <>
+      {doc.pageNumber > 1 && (
+        <div className={style.PageSeparator}>
+          <button
+            className={`btn btn-square btn-ghost `}
+            onClick={() => {
+              deletePage(doc.pageNumber);
+            }}
+          >
+            <CgTrashEmpty className="text-xl" />
+          </button>
+        </div>
+      )}
+      <div
+        contentEditable={true}
+        suppressContentEditableWarning={true}
+        className={`${style.Document} rounded shadow-md`}
+        onInput={(e) =>
+          updateDocumentContent(doc.pageNumber, e.currentTarget.textContent)
+        }
+      >
+        {doc.pageNumber}
+      </div>
+    </>
   );
 };
 

@@ -5,3 +5,13 @@
     margin-bottom: 2em;
     display: block;
 }
+
+
+/* Display the element at the end using flex */
+
+.PageSeparator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}

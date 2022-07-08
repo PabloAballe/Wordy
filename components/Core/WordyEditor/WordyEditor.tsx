@@ -1,20 +1,16 @@
 import { Document } from "../Document/Document";
-import PropTypes from "prop-types";
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./WordyEditor.module.css";
-import { useState } from "react";
+import { useSelector } from "react-redux";
+import { deletePage } from "../../../redux/actions";
 
 export const WordyEditor = () => {
-  const [nDocuments, setNDocuments] = useState([
-    {
-      documentN: 1,
-    },
-  ]);
-
+  const documentState = useSelector((state) => state.editorReducer.document);
   return (
     <div className={style.WordyEditor}>
-      {nDocuments.map((_doc) => (
-        <Document />
+      
+    {documentState.map((doc, index ) => (
+        <Document key={doc.pageNumber} doc={doc}/>
       ))}
     </div>
   );

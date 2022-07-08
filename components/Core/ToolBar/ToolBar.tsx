@@ -1,19 +1,13 @@
 /* @ts-ignore */
-import PropTypes from "prop-types";
-import style from "./ToolBar.module.css";
-import Picker from "emoji-picker-react";
 import {
   CgFormatUnderline,
   CgFormatItalic,
-  CgMathPlus,
   CgImage,
   CgLink,
   CgUndo,
   CgRedo,
-  CgArrowsExchange,
   CgTrashEmpty,
   CgCopy,
-  CgMathMinus,
   CgFormatJustify,
   CgFormatLeft,
   CgFormatRight,
@@ -28,16 +22,13 @@ import {
 } from "react-icons/md";
 import { FiScissors } from "react-icons/fi";
 import { useEffect, useRef, useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import { BsEmojiWink } from "react-icons/bs";
-import { ADD_NEW_DOCUMENT } from "../../../redux/types";
-import { useSelector, useDispatch } from "react-redux"
-import { store } from "../../../redux/store";
+import { toast } from "react-toastify";
+import {  addNewPage } from "../../../redux/actions";
+import { useSelector } from "react-redux";
 
 export const ToolBar = () => {
   const imageRef = useRef();
   const emojiPickerRef = useRef();
-  //const favouriteNotes = useSelector((state) => state.progress.favouriteNotes)
   const [_document, set_document] = useState({} as any);
   const [chosenEmoji, setChosenEmoji] = useState(null);
   const [activeItems, setActiveItems] = useState({
@@ -55,11 +46,6 @@ export const ToolBar = () => {
   const onEmojiClick = (event, emojiObject) => {
     setChosenEmoji(emojiObject);
   };
-
-
-  const addNewDocument = ()=> {
-    store.dispatch({ type: ADD_NEW_DOCUMENT });
-  }
 
   const printDocuments = () => {
     let headstr = "<html><head><title></title></head><body>";
@@ -328,7 +314,9 @@ export const ToolBar = () => {
       </button>
       <button
         className={`btn btn-square btn-ghost `}
-        onClick={() => addNewDocument()}
+        onClick={() => {
+          addNewPage();
+        }}
       >
         <CgFileDocument className="text-xl" />
       </button>
