@@ -4,6 +4,8 @@
 
 ### Free and open source text editor.
 
+![Wordy](https://github.com/PabloAballe/Wordy/blob/main/public/sample-wordy.png?raw=true)
+
 Wordy is a free editor available for desktop and on the cloud. You can use for free and support the project sharing it with other people.
 
 Hope you enjoy it!
